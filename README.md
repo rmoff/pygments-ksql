@@ -26,3 +26,7 @@ For example:
 
     CREATE OR REPLACE MODULE project @
     \end{minted}
+
+produces
+
+![](https://github.com/mitakas/pygments-sql-pl-lexer/blob/master/docs/example.png)
