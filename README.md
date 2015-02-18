@@ -7,15 +7,13 @@
 
 ## Check if the lexer is present
 
-Simply grep the output of
+Simply grep the output of the following command for `sqlpl`
 
     $ pygmentize -L lexers
 
-for `sqlpl`
-
 ## Use the lexer in LaTeX
 
-Use **sqlpl** as <language>.
+Replace &lt;language&gt; with **sqlpl**:
 
     \begin{minted}{<language>}
         <code>
