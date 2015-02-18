@@ -21,6 +21,8 @@ Replace &lt;language&gt; with **sqlpl**:
 
 For example:
 
-    \begin{minted}{sqlpl}
-        CREATE MODULE project
+    \begin{minted}[linenos=true,frame=single]{sqlpl}
+    --#SET TERMINATOR @
+
+    CREATE OR REPLACE MODULE project @
     \end{minted}
