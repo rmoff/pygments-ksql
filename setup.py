@@ -6,12 +6,12 @@ version = '0.1'
 
 setup(name='pygments-sql-pl-lexer',
     version=version,
-    description='Pygments lexer for SQL PL (SQL Procedural Language), a DB2 implementation of ANSI SQL/PSM',
+    description='Pygments lexer for SQL PL (SQL Procedural Language), the DB2 implementation of ANSI SQL/PSM',
     long_description=open('README.md').read(),
     keywords='pygments sql lexer',
     author='Dimitar Dimitrov',
     author_email='admin@mitakas.com',
-    url='',
+    url='https://github.com/mitakas/pygments-sql-pl-lexer',
     license='GPL',
     packages=find_packages(),
     install_requires=[

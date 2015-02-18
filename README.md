@@ -1,4 +1,6 @@
-# Pygments lexer for SQL PL (SQL Procedural Language)
+# Pygments lexer for SQL PL
+
+SQL PL (SQL Procedural Language) is the DB2 implementation of ANSI SQL/PSM. This module extends the `SqlLexer` lexer of [Pygments](http://pygments.org/) to support more keywords of SQL PL.
 
 ## Installation
 
@@ -9,7 +11,7 @@
 
 Simply grep the output of the following command for `sqlpl`
 
-    $ pygmentize -L lexers
+    $ pygmentize -L lexers | grep sqlpl
 
 ## Use the lexer in LaTeX
 
