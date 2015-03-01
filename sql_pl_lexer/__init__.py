@@ -4,7 +4,7 @@ from pygments.lexers.sql import SqlLexer
 from pygments.token import Name, Keyword
 
 class SqlPlLexer(SqlLexer):
-    name = 'SQL PL (SQL Procedural Language - DB2)'
+    name = 'SQL Procedural Language (SQL PL)'
     aliases = ['sqlpl']
 
     EXTRA_KEYWORDS = ['MODULE']
