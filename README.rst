@@ -39,6 +39,6 @@ For example::
 
 produces
 
-.. image:: docs/example.png
+.. image:: https://raw.githubusercontent.com/mitakas/pygments-sql-pl-lexer/master/docs/example.png
 
 .. _`Pygments`: http://pygments.org/
