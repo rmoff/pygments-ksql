@@ -1,5 +1,5 @@
-Pygments lexer for SQL PL
-=========================
+Contents
+========
 
 SQL PL (SQL Procedural Language) is the DB2 implementation of ANSI SQL/PSM.
 This module extends the *SqlLexer* lexer of `Pygments`_ to support more
