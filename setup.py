@@ -2,12 +2,12 @@
 
 from setuptools import setup, find_packages
 
-version = '0.2'
+version = '0.2.1'
 
 setup(name='pygments-sql-pl-lexer',
     version=version,
     description='Pygments lexer for SQL PL (SQL Procedural Language), the DB2 implementation of ANSI SQL/PSM',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     keywords='pygments sql lexer',
     author='Dimitar Dimitrov',
     author_email='admin@mitakas.com',
