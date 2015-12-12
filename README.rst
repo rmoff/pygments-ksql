@@ -39,6 +39,6 @@ For example::
 
 produces
 
-.. image:: docs/examples.png
+.. image:: docs/example.png
 
 .. _`Pygments`: http://pygments.org/
