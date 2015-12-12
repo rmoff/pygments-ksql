@@ -7,7 +7,7 @@ class SqlPlLexer(SqlLexer):
     name = 'SQL Procedural Language (SQL PL)'
     aliases = ['sqlpl']
 
-    EXTRA_KEYWORDS = ['MODULE']
+    EXTRA_KEYWORDS = ['MODULE', 'DOUBLE', 'ASIN', 'SIGNAL', 'IF']
 
     def get_tokens_unprocessed(self, text):
         for index, token, value in SqlLexer.get_tokens_unprocessed(self, text):
