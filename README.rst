@@ -1,44 +1,27 @@
 Contents
 ========
 
-SQL PL (SQL Procedural Language) is the DB2 implementation of ANSI SQL/PSM.
+KSQL is a streaming SQL engine for Apache Kafka. 
+
 This module extends the *SqlLexer* lexer of `Pygments`_ to support more
-keywords of SQL PL.
+keywords of KSQL.
 
 Installation
 ============
 
 Use the following commands to install the package::
 
-    $ cd pygments-sql-pl-lexer
+    $ cd pygments-ksql-lexer
     $ [sudo] python setup.py install
 
 Check if the lexer is present
 =============================
 
-Simply grep the output of the following command for **sqlpl**.::
+Simply grep the output of the following command for **ksql**.::
 
-    $ pygmentize -L lexers | grep sqlpl
+    $ pygmentize -L lexers | grep ksql
 
-Use the lexer in LaTeX
-======================
+Acknowledgements
+================
 
-Replace <language> with **sqlpl**::
-
-    \begin{minted}{<language>}
-        <code>
-    \end{minted}
-
-For example::
-
-    \begin{minted}[linenos=true,frame=single]{sqlpl}
-    --#SET TERMINATOR @
-
-    CREATE OR REPLACE MODULE project @
-    \end{minted}
-
-produces
-
-.. image:: https://raw.githubusercontent.com/mitakas/pygments-sql-pl-lexer/master/docs/example.png
-
-.. _`Pygments`: http://pygments.org/
+Forked and completely based on `https://github.com/mitakas/pygments-sql-pl-lexer` !

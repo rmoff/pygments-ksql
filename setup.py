@@ -4,14 +4,14 @@ from setuptools import setup, find_packages
 
 version = '0.3'
 
-setup(name='pygments-sql-pl-lexer',
+setup(name='pygments-ksql-lexer',
     version=version,
-    description='Pygments lexer for SQL PL (SQL Procedural Language), the DB2 implementation of ANSI SQL/PSM',
+    description='Pygments lexer for KSQL, a SQL Streaming engine for Apache Kafka',
     long_description=open('README.rst').read(),
-    keywords='pygments sql lexer',
-    author='Dimitar Dimitrov',
-    author_email='admin@mitakas.com',
-    url='https://github.com/mitakas/pygments-sql-pl-lexer',
+    keywords='pygments sql lexer apache kafka ksql streaming',
+    author='Robin Moffatt',
+    author_email='robin@rmoff.net',
+    url='https://github.com/rmoff/pygments-ksql',
     license='GPL',
     packages=find_packages(),
     install_requires=[
@@ -20,6 +20,6 @@ setup(name='pygments-sql-pl-lexer',
     ],
     entry_points="""
         [pygments.lexers]
-        sqlpl=sql_pl_lexer:SqlPlLexer
+        ksql=ksql_lexer:KSQLLexer
     """,
 )
