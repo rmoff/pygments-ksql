@@ -2,8 +2,8 @@
 
 KSQL is a streaming SQL engine for Apache Kafka. 
 
-This module extends the *SqlLexer* lexer of `Pygments` to support more
-keywords of KSQL.
+This module extends the *SqlLexer* lexer of http://pygments.org/[`Pygments`] to support more
+keywords of https://www.confluent.io/product/ksql/[KSQL].
 
 == Installation
 
