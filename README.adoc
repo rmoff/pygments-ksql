@@ -24,6 +24,23 @@ Simply grep the output of the following command for **ksql**.::
 $ pygmentize -L lexers | grep ksql
 ----
 
+== Usage
+
+See http://pygments.org/docs/[the documentation] for full details. Here are some snippets to get you going:
+
+[source,bash]
+----
+pygmentize -l ksql
+pygmentize -l ksql -f terminal256 -O style=emacs	
+pygmentize -l ksql -F keywordcase:case=upper -f terminal256 -O style=default
+pygmentize -l ksql -f terminal256 -O style=default /tmp/foo.sql
+----
+	
+Without a file specified will read from stdin, press Ctrl-D to end input and see the formatted result
+	
+See a https://help.farbox.com/pygments.html[preview of available styles] here.
+
+
 == Acknowledgements
 
 "Inspired by" (i.e. forked and completely based on) https://github.com/mitakas/pygments-sql-pl-lexer[pygments-sql-pl-lexer]
