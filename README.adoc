@@ -1,0 +1,29 @@
+== Contents
+
+KSQL is a streaming SQL engine for Apache Kafka. 
+
+This module extends the *SqlLexer* lexer of `Pygments` to support more
+keywords of KSQL.
+
+== Installation
+
+Use the following commands to install the package::
+
+[source,bash]
+----
+$ cd pygments-ksql-lexer
+$ [sudo] python setup.py install
+----
+
+== Check if the lexer is present
+
+Simply grep the output of the following command for **ksql**.::
+
+[source,bash]
+----
+$ pygmentize -L lexers | grep ksql
+----
+
+== Acknowledgements
+
+"Inspired by" (i.e. forked and completely based on) https://github.com/mitakas/pygments-sql-pl-lexer[pygments-sql-pl-lexer]
